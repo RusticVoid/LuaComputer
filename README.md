@@ -34,12 +34,14 @@ there are 5 op codes as of right now
 4. add   - Adds locations data to geather <br>
 ```
 0000 add -- This adds location 4 and 5
-0001 4
-0002 5
+0001 4   -- and puts the sum at location 6
+0002 5    
 0003 6
-0004 25
-0005 10
-0006 0
+0004 25  -- this is location 4
+0005 10  -- this is location 5
+0006 0   -- this is where the sum will be after running
 ```
-5. sub   - Subractes locations data from another <br>
+5. sub   - subtracts locations data from another <br>
+similar to the add op but subtraction
 6. mul   - Multiplies locations data to geather <br>
+similar to the add op but multiplication
