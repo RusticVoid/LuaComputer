@@ -27,6 +27,19 @@ there are 5 op codes as of right now
 0001 10 --This jumps to address 000a or 10
 ```
 3. print - Prints that line under it <br>
+```
+0000 print
+0001 Hello, World! --This prints "Hello, World!"
+```
 4. add   - Adds locations data to geather <br>
+```
+0000 add
+0001 4
+0002 5
+0003 6
+0004 25
+0005 10
+0006 0
+```
 5. sub   - Subractes locations data from another <br>
 6. mul   - Multiplies locations data to geather <br>
