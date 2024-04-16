@@ -162,6 +162,9 @@ while true do
                 if locations[i].data == "print" then
                     print(locations[i+1].data)
                 end
+                if locations[i].data == "break" then
+                    break
+                end
                 if i == locationAmount then
                     break
                 else
@@ -215,6 +218,7 @@ while true do
         else
             for i = startLocation, endLocation, 1 do
                 locations[i]:displayData()
+                print('')
             end
         end
         print('')
@@ -224,6 +228,7 @@ while true do
         print('')
         for i = 0, locationAmount, 1 do
             locations[i]:displayData()
+            print('')
         end
         print('')
     end
