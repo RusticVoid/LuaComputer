@@ -24,7 +24,7 @@ there are 5 op codes as of right now
 1. jmp   - Jumps to a location in memory <br>
 ```
 0000 jmp
-0000 10 --This jumps to address 000a or 10
+0001 10 --This jumps to address 000a or 10
 ```
 3. print - Prints that line under it <br>
 4. add   - Adds locations data to geather <br>
