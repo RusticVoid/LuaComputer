@@ -23,6 +23,7 @@ there are 5 op codes as of right now
 
 1. jmp   - Jumps to a location in memory <br>
 ```0000 0000``` <br>
+```0000 0000``` <br>
 3. print - Prints that line under it <br>
 4. add   - Adds locations data to geather <br>
 5. sub   - Subractes locations data from another <br>
