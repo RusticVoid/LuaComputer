@@ -1,11 +1,11 @@
 # LuaComputer
-This is a semi computer written in Lua.
+This is a semi-computer written in Lua.
 
 ### Plans
-Im planing on adding more to the jmp op code like jumping to labels. <br>
-Im also plaing on adding more op codes like BRK(Break), and "if" statement op codes
+Im planing on adding more to the jmp opcode like jumping to labels. <br>
+Im also plaing on adding more opcodes like BRK(Break), and "if" statement op codes
 
-# Commands and op codes
+# Commands and opcodes
 ### Commands
 there are 9 commands as of right now
 
@@ -20,7 +20,7 @@ there are 9 commands as of right now
 9. exit    - exits the program <br>
 
 ### Op Codes
-there are 5 op codes as of right now
+there are 5 opcodes as of right now
 
 1. jmp   - Jumps to a location in memory <br>
 ```
@@ -32,9 +32,9 @@ there are 5 op codes as of right now
 0000 print
 0001 Hello, World! --This prints "Hello, World!"
 ```
-4. add   - Adds locations data to geather <br>
+4. add   - Adds locations data together <br>
 ```
-0000 add -- This adds location 4 and 5
+0000 add -- This adds locations 4 and 5
 0001 4   -- and puts the sum at location 6
 0002 5    
 0003 6
@@ -44,5 +44,5 @@ there are 5 op codes as of right now
 ```
 5. sub   - subtracts locations data from another <br>
 similar to the add op but subtraction
-6. mul   - Multiplies locations data to geather <br>
+6. mul   - Multiplies locations data together <br>
 similar to the add op but multiplication
