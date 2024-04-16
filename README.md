@@ -19,8 +19,8 @@ there are 9 commands as of right now
 9. exit    - exits the program <br>
 
 # Op Codes
-jmp   - Jumps to a location in memory
-print - Prints that line under it
-add   - Adds locations data to geather
-sub   - Subractes locations data from another
-mul   - Multiplies locations data to geather
+jmp   - Jumps to a location in memory <br>
+print - Prints that line under it <br>
+add   - Adds locations data to geather <br>
+sub   - Subractes locations data from another <br>
+mul   - Multiplies locations data to geather <br>
