@@ -22,7 +22,8 @@ there are 9 commands as of right now
 there are 5 op codes as of right now
 
 1. jmp   - Jumps to a location in memory <br>
-2. print - Prints that line under it <br>
-3. add   - Adds locations data to geather <br>
-4. sub   - Subractes locations data from another <br>
-5. mul   - Multiplies locations data to geather <br>
+`0000 0000`
+3. print - Prints that line under it <br>
+4. add   - Adds locations data to geather <br>
+5. sub   - Subractes locations data from another <br>
+6. mul   - Multiplies locations data to geather <br>
