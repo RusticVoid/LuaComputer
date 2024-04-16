@@ -33,7 +33,7 @@ there are 5 op codes as of right now
 ```
 4. add   - Adds locations data to geather <br>
 ```
-0000 add
+0000 add -- This adds location 4 and 5
 0001 4
 0002 5
 0003 6
