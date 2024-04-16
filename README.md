@@ -1,8 +1,9 @@
 # LuaComputer
-This is a semi computer written in Lua
+This is a semi computer written in Lua.
 
 # Plans
-Im planing on add more to the jmp op code like jumping to labels
+Im planing on adding more to the jmp op code like jumping to labels.
+Im also plaing on adding more op codes like BRK(Break), and "if" statement op codes
 
 # Commands
 there are 9 commands as of right now
@@ -16,3 +17,10 @@ there are 9 commands as of right now
 7. load    - loads data from a specified txt file <br>
 8. clear   - clears the console <br>
 9. exit    - exits the program <br>
+
+# Op Codes
+jmp   - Jumps to a location in memory
+print - Prints that line under it
+add   - Adds locations data to geather
+sub   - Subractes locations data from another
+mul   - Multiplies locations data to geather
