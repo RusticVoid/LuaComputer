@@ -3,7 +3,7 @@ This is a semi-computer written in Lua.
 
 ### Plans
 I plan on adding more to the jmp opcode like jumping to labels. <br>
-I also plan on adding a BRK(Break) opcode, a "if" statement opcode, and a input opcode.
+I also plan on adding a BRK(Break) opcode, "if" statement opcode, and input opcode.
 
 # Commands and opcodes
 ### Commands
