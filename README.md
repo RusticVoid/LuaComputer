@@ -1,6 +1,10 @@
 # LuaComputer
 This is a semi computer written in Lua
 
+# Plans
+Im planing on add more to the jmp op code like jumping to labels
+
+
 # Commands
 there are 9 commands as of right now
 
