@@ -1,11 +1,11 @@
 # LuaComputer
 This is a semi computer written in Lua.
 
-# Plans
+## Plans
 Im planing on adding more to the jmp op code like jumping to labels.
 Im also plaing on adding more op codes like BRK(Break), and "if" statement op codes
 
-# Commands
+### Commands
 there are 9 commands as of right now
 
 1. run     - runs all the data from memory starting from location 0000 <br>
@@ -18,12 +18,14 @@ there are 9 commands as of right now
 8. clear   - clears the console <br>
 9. exit    - exits the program <br>
 
-# Op Codes
+### Op Codes
 there are 5 op codes as of right now
 
 1. jmp   - Jumps to a location in memory <br>
-```0000 0000``` <br>
-```0000 0000``` <br>
+```
+0000 jmp
+0000 10 --This jumps to address 000a or 10
+```
 3. print - Prints that line under it <br>
 4. add   - Adds locations data to geather <br>
 5. sub   - Subractes locations data from another <br>
