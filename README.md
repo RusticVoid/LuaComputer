@@ -7,18 +7,20 @@ I also plan on adding "if" statement opcodes, and user input opcode.
 
 # Commands and opcodes
 ### Commands
-there are 9 commands as of right now
+there are 10 commands as of right now
 
-1. run     - runs all the data from memory starting from location 0000 <br>
-2. write   - writes to a specified location <br>
-3. read    - reads a specified location <br>
-4. readSec - reads a specified section of memory <br>
-![readSecExample](wikiImages/readSecExample.png)
-5. readAll - reads all memory <br>
-6. save    - saves all data to a specified txt file <br>
-7. load    - loads data from a specified txt file <br>
-8. clear   - clears the console <br>
-9. exit    - exits the program <br>
+1. help    - shows all commands<br>
+![helpExample](wikiImages/helpExample.png)<br>
+2. run     - runs all the data from memory starting from location 0000 <br>
+3. write   - writes to a specified location <br>
+4. read    - reads a specified location <br>
+5. readSec - reads a specified section of memory <br>
+![readSecExample](wikiImages/readSecExample.png)<br>
+6. readAll - reads all memory <br>
+7. save    - saves all data to a specified txt file <br>
+8. load    - loads data from a specified txt file <br>
+9. clear   - clears the console <br>
+10. exit    - exits the program <br>
 
 ### Op Codes
 there are 6 opcodes as of right now
@@ -48,3 +50,20 @@ similar to the add op but subtraction
 5. mul   - Multiplies locations data together <br>
 similar to the add op but multiplication
 6. break - ends the program at the location its placed in
+
+# Programs
+
+program 1: this program prints infinate numbers<br>
+```
+0000 print - prints the sum from adding
+0001 0     - where the sum is put
+0002 add   - adds location 1 8 and puts the sum at 1
+0003 1     - grabs data from location 1
+0004 8     - grabs data from location 8
+0005 1     - puts the sum of adding location 1 and location 8 at location 1
+0006 jmp   - jumps to location 0
+0007 0     - jumps to location 0
+0008 1     - location 8 for adding
+```
+
+
