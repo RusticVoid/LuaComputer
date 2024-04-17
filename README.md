@@ -54,6 +54,7 @@ similar to the add op but multiplication
 # Programs
 
 program 1: this program prints infinate numbers<br>
+REMOVE ALL SPACES AND COMMENTS(Working on a fix)
 ```
 0000 print - prints the sum from adding
 0001 0     - where the sum is put
