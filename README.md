@@ -13,7 +13,7 @@ there are 9 commands as of right now
 2. write   - writes to a specified location <br>
 3. read    - reads a specified location <br>
 4. readSec - reads a specified section of memory <br>
-![alt text](https://github.com/RusticVoid/LuaComputer/tree/main/wikiImagesreadSecExample.png?raw=true)
+![alt text](https://github.com/RusticVoid/LuaComputer/tree/main/wikiImages/readSecExample.png?raw=true)
 5. readAll - reads all memory <br>
 6. save    - saves all data to a specified txt file <br>
 7. load    - loads data from a specified txt file <br>
