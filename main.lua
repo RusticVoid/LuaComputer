@@ -11,7 +11,7 @@ end
 
 require('classes')
 
-locationAmount = 50
+locationAmount = 99
 locations = {}
 
 for i = 0, locationAmount, 1 do
@@ -64,6 +64,9 @@ while true do
         print("|load    - loads data from a txt file   |")
         print("|clear   - clears the console           |")
         print("|exit    - exits the program            |")
+        print("|                                       |")
+        print("|go to github.com/RusticVoid/LuaComputer|")
+        print("|for more info                          |")
         print("+---------------------------------------+\n")
     end
 
@@ -203,22 +206,25 @@ while true do
         print('')
     end
 
-    if usrin == 'readSec' then
+    if string.find(usrin, 'readSec') then
 
-        print('Start Read[0-50]: ')
-        startLocation = io.read()
-        print('End Read[0-50]: ')
-        endLocation = io.read()
+        line = usrin
+        startLocation = line:sub(8,10)
+        endLocation = line:sub(11,-1)
         print('')
-        if tonumber(startLocation) > 55 then
-            print("START ADDRESS OUT OF RANGE!")
-        end
-        if tonumber(endLocation) > 55 then
-            print("END ADDRESS OUT OF RANGE!")
+        if tonumber(startLocation) == nil or tonumber(endLocation) == nil then
+            print("One of the inputs are nil!")
         else
-            for i = startLocation, endLocation, 1 do
-                locations[i]:displayData()
-                print('')
+            if tonumber(startLocation) > 55 then
+                print("START ADDRESS OUT OF RANGE!")
+            end
+            if tonumber(endLocation) > 55 then
+                print("END ADDRESS OUT OF RANGE!")
+            else
+                for i = startLocation, endLocation, 1 do
+                    locations[i]:displayData()
+                    print('')
+                end
             end
         end
         print('')
